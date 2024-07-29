@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /*escrita dentro dos quadros de perfume*/
+    background-color: rgba(151, 180, 185, 0.671); /* fundo da pagina*/
+}
+header {
+    background-color: rgb(245, 181, 5);
+    color: black; /* titulo de perfume elegance*/
+    padding: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#barra{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(245, 181, 5);
+    justify-content: space-between;
+}
+
+#left{
+    margin-left: 200px;
+    background-color: rgb(245, 181, 5);
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+#right {
+    background-color: rgb(245, 181, 5);
+    display: flex;
+    gap:50px;
+    align-items: center;
+    width: 27%;
+}
+button{
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#loguinho {
+    display: flex;
+    height: 150px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color:black; /* o preto do "encontr seu perfume"*/
+    padding: 60px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0 20px;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.product div {
+    flex: 1;
+    margin: 0 10px;
+    /*background-color: white; /* sobre a cor das imagens das fragancias */
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(8, 8, 8); /*Muda a sombra das caixas*/
+    text-align: center;
+}
+#perfumeereFem {
+    background-color: rgb(242, 242, 162);
+}
+.preco {
+    position: absolute;
+    bottom: 10px; /* Ajuste a posição vertical conforme necessário */
+    left: 10px; /* Ajuste a posição horizontal conforme necessário */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+button{
+    background-color: rgba(255, 94, 0, 0.63);
+    box-shadow: 0 0 10px rgb(12, 27, 228);
+}
+#perfumeMas {
+    background-color: #333;
+    color: white;
+}
+#perfumeUnix {
+    background-color: yellow;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+#containerfooter{
+    display: flex;
+    align-items: end;
+}
+footer {
+    background-color:rgb(245, 181, 5); /*final da pagina em que esta a data*/ 
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+#paragraf {
+    width: 1000px;
+    margin: 0% 30%;
+    text-align: justify;
+    font-style: italic;
+}
+#Paragrafo{
+    text-indent: 40px;
+}
+#paragrfBranco{
+    background-color: red;
+    width: 30px;
+}
