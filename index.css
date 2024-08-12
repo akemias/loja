@@ -6,8 +6,8 @@ body {
     background-color: rgba(151, 180, 185, 0.671); /* fundo da pagina*/
 }
 header {
-    background-color: rgb(245, 181, 5);
-    color: black; /* titulo de perfume elegance*/
+    background-color: rgb(140, 29, 29);
+    color: rgb(248, 244, 244); /* titulo de perfume elegance*/
     padding: 10px 0;
     text-align: center;
     justify-content: space-between;
@@ -17,27 +17,33 @@ header {
     width: 1100px;
     height: 100px;
     display: flex;
-    background-color: rgb(245, 181, 5);
+    background-color: rgb(140, 29, 29);
     justify-content: space-between;
 }
 
 #left{
     margin-left: 200px;
-    background-color: rgb(245, 181, 5);
+    background-color: rgb(140, 29, 29);
     display: flex;
     gap: 150px;
     align-items: center;
 }
 
 #right {
-    background-color: rgb(245, 181, 5);
+    background-color: rgb(140, 29, 29);
     display: flex;
+    margin-left: 15%;
     gap:50px;
     align-items: center;
-    width: 27%;
+}
+#pesquisa{
+    display: flex;
 }
 button{
     color: black;
+}
+#carrinhoLogo{
+    font-size: 25px;
 }
 a{
     color: black;
@@ -115,7 +121,7 @@ button{
     align-items: end;
 }
 footer {
-    background-color:rgb(245, 181, 5); /*final da pagina em que esta a data*/ 
+    background-color:rgb(140, 29, 29); /*final da pagina em que esta a data*/ 
     color: black;
     text-align: center;
     padding: 10px 0;
